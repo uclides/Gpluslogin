@@ -1,7 +1,6 @@
 package com.example.ardhipc.gpluslogin.activity;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -14,10 +13,8 @@ import com.example.ardhipc.gpluslogin.R;
 /**
  * Created by Ardhipc on 5/6/2015.
  */
-public class HomeFragment extends Fragment{
-    public HomeFragment(){
-    Intent i = new Intent();
-        i.getStringExtra("email");
+public class TimelineFragment extends Fragment {
+    public TimelineFragment(){
 
     }
 
@@ -29,7 +26,7 @@ public class HomeFragment extends Fragment{
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_home, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_timeline, container, false);
 
 
         // Inflate the layout for this fragment

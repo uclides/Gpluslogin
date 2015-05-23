@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.ardhipc.gpluslogin.activity.messagesFragment">
+    tools:context="com.example.ardhipc.gpluslogin.activity.EventFragment">
 
 
     <TextView
@@ -14,7 +14,11 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:textSize="45dp"
-        android:text="Messages"
+<<<<<<< HEAD:app/src/main/res/layout/fragment_home.xml
+        android:text="rumah"
+=======
+        android:text="EVENT"
+>>>>>>> upstream/master:app/src/main/res/layout/fragment_event.xml
         android:textStyle="bold"/>
 
     <TextView
